@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Навигатор | Личный кабинет</title>
+
+    <link rel="shortcut icon" href="../media/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../media/css/main.css">
 </head>
 <body>
-    
+    <header>
+        <a href="../index.html"><img src="../media/images/logo/logo-white.svg" alt=""></a>
+        
+        <nav>
+            <ul>
+                <li><a href="courses.html">Каталог</a></li>
+                <li><a href="registration.html">Записаться</a></li>
+                <li><a href="account.html">Личный кабинет</a></li>
+                <li><a href="404.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="info">
+            <section class="child-info">
+                <h1>Информация о ребенке</h1>
+                <p>ФИО: Иванов Иван Иванович</p>
+                <p>Направления: IT, Творчество</p>
+            </section>
+            <section class="parent-info">
+                <h1>Информация о родителе</h1>
+                <p>ФИО: Давыдов Петр ИСП-Д52</p>
+            </section>
+        </div>
+
+        <div class="course-cards">
+            <h1>Список записанных курсов</h1>
+
+            <div class="course-card">
+                <h1>Первый код</h1>
+                <img src="../media/images/courses/course-1-first-code.svg" alt="">
+                <img src="../media/icons/directions/it.svg" alt="">
+                <h2>Дата старта: 2026-02-10</h2>
+                <p>Статус: Ожидает подтверждения</p>
+                <button>Записаться</button>
+            </div>
+
+            <div class="course-card">
+                <h1>Юный робототехник</h1>
+                <img src="../media/images/courses/course-2-robotics.svg" alt="">
+                <img src="../media/icons/directions/engineering.svg" alt="">
+                <h2>Дата старта: 2026-02-12</h2>
+                <p>Статус: Подтверждено</p>
+                <button>Записаться</button>
+            </div>
+        </div>
+
+        <nav class="navigation-button">
+            <a href="">Редактировать профиль</a>
+            <a href="../pages/courses.html">Добавить курс</a>
+        </nav>
+    </main>
+    <footer>
+        <ul>
+            <li>Телефон: <a href="tel">+7 (924) 111-11-11</a></li>
+            <li>Email: <a href="mailto">edu@navigator.ru </a></li>
+            <li>Регион: Хабаровский край</li>
+        </ul>
+        <p>© 2026 «Цифровой навигатор». Все права защищены.</p>
+    </footer>
 </body>
 </html>
