@@ -1,0 +1,7 @@
+/* Шрифты «Цифровой навигатор». Подключение: <link rel="stylesheet" href="media/fonts/fonts.css"> */
+@font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:swap;src:url("Inter-Regular.woff") format("woff"),url("Inter-Regular.otf") format("opentype")}
+@font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:swap;src:url("Inter-Medium.woff") format("woff"),url("Inter-Medium.otf") format("opentype")}
+@font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:swap;src:url("Inter-SemiBold.woff") format("woff"),url("Inter-SemiBold.otf") format("opentype")}
+@font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:swap;src:url("Inter-Bold.woff") format("woff"),url("Inter-Bold.otf") format("opentype")}
+@font-face{font-family:"Inter";font-weight:800;font-style:normal;font-display:swap;src:url("Inter-ExtraBold.woff") format("woff"),url("Inter-ExtraBold.otf") format("opentype")}
+@font-face{font-family:"Lora";font-weight:400 700;font-style:normal;font-display:swap;src:url("Lora-Variable.woff") format("woff"),url("Lora-Variable.ttf") format("truetype")}

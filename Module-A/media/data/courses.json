@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Первый код",
+      "direction": "IT",
+      "age_group": "8–10 лет",
+      "start_date": "2026-02-10",
+      "total_seats": 15,
+      "available_seats": 12,
+      "description": "Знакомство с программированием в игровой форме: алгоритмы, циклы и первые собственные программы.",
+      "image": "media/images/courses/course-1-first-code.webp",
+      "image_fallback": "media/images/courses/course-1-first-code.jpg",
+      "direction_icon": "media/icons/directions/it.svg"
+    },
+    {
+      "id": 2,
+      "title": "Юный робототехник",
+      "direction": "Инженерия",
+      "age_group": "11–14 лет",
+      "start_date": "2026-02-12",
+      "total_seats": 10,
+      "available_seats": 2,
+      "description": "Собираем и программируем роботов: механика, датчики и управление.",
+      "image": "media/images/courses/course-2-robotics.webp",
+      "image_fallback": "media/images/courses/course-2-robotics.jpg",
+      "direction_icon": "media/icons/directions/engineering.svg"
+    },
+    {
+      "id": 3,
+      "title": "Цифровой художник",
+      "direction": "Дизайн",
+      "age_group": "10–13 лет",
+      "start_date": "2026-02-15",
+      "total_seats": 12,
+      "available_seats": 12,
+      "description": "Рисуем на планшете: цвет, композиция и создание собственных иллюстраций.",
+      "image": "media/images/courses/course-3-digital-artist.webp",
+      "image_fallback": "media/images/courses/course-3-digital-artist.jpg",
+      "direction_icon": "media/icons/directions/design.svg"
+    },
+    {
+      "id": 4,
+      "title": "Python Start",
+      "direction": "IT",
+      "age_group": "12–16 лет",
+      "start_date": "2026-02-20",
+      "total_seats": 8,
+      "available_seats": 0,
+      "description": "Основы языка Python: переменные, условия, циклы и небольшие проекты.",
+      "image": "media/images/courses/course-4-python-start.webp",
+      "image_fallback": "media/images/courses/course-4-python-start.jpg",
+      "direction_icon": "media/icons/directions/it.svg"
+    },
+    {
+      "id": 5,
+      "title": "3D-моделирование",
+      "direction": "Дизайн",
+      "age_group": "13–17 лет",
+      "start_date": "2026-03-01",
+      "total_seats": 10,
+      "available_seats": 5,
+      "description": "Создаём трёхмерные модели с нуля и готовим их к визуализации.",
+      "image": "media/images/courses/course-5-3d-modeling.webp",
+      "image_fallback": "media/images/courses/course-5-3d-modeling.jpg",
+      "direction_icon": "media/icons/directions/design.svg"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="media/images/logo/logo-white.svg" alt=""></a>
+        
+        <nav>
+            <ul>
+                <li><a href="">Каталог</a></li>
+                <li><a href="">Записаться</a></li>
+                <li><a href="">Личный кабинет</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <label for="parent-name">ФИО Родителя</label>
+            <input type="text" id="parent-name" required pattern="^[A-ZА-Я].*" title="Иванов Иван Иванович">
+
+            <label for="child-name">ФИО Ребенка</label>
+            <input type="text" id="child-name" required pattern="^[A-ZА-Я].*" title="Иванов Иван Иванович">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Пароль</label>
+            <input type="password" id="password" readonly>
+
+            <label for="password">Повторите пароль</label>
+            <input type="password" id="repassword" readonly>
+
+            <label for="phone">Телефон</label>
+            <input type="text" id="phone" readonly>
+
+            <label for="checkbox-it">IT</label>
+            <input type="checkbox" name="checkbox-it" id="checkbox-it">
+
+            <label for="checkbox-tv">Творчество</label>
+            <input type="checkbox" name="checkbox-tv" id="checkbox-tv">
+
+            <label for="checkbox-sport">Спорт</label>
+            <input type="checkbox" name="checkbox-sport" id="checkbox-sport">
+
+            <button type="submit">Зарегестрироваться</button>
+
+            <a href="">У вас уже есть аккаунт?/Войти</a>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
